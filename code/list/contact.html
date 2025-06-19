@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Nunito',sans-serif;
+}
+
+
+
+
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* Navbar */
+.navbar {
+    background:rgb(58, 58, 60);
+    color:rgb(253, 251, 251);
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+
+}
+
+.navbar .logo {
+    font-size: 24px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+    
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}
+.navbar .nav-links a:hover, .navbar a:active{
+    color: rgb(27, 129, 246);
+}
+    
+
+
+
+        .contact {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    background:url('https://static.vecteezy.com/system/resources/previews/013/031/421/original/wave-of-the-many-colored-lines-abstract-wavy-stripes-background-isolated-free-vector.jpg') no-repeat center center/cover;')
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact .btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">My Portfolio</h1>
+
+                <ul class="nav-links">
+                   <li><a href="http://127.0.0.1:5500/list/port.html#Home">Home</a></li></b>
+                    <li><a href="http://127.0.0.1:5500/about.html">About</a></li></b>
+                    <li><a href="http://127.0.0.1:5500/list/project.html">Projects</a></li></b>
+                    <li><a href="http://127.0.0.1:5500/list/contact.html">Contact</a></li></b>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="contact" class="contact">
+   
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Anjali Kaulage. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

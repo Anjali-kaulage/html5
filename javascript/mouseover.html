@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>mouse over event</h1>
+    <div id="out">hello</div>
+    <script>
+       document.getElementById("out").addEventListener("mouseover",function(){
+        this.style.backgroundColor="pink";
+       });
+    </script> -->
+<!-- 
+    <form id="gh">
+        <input type="text" name="name">
+        <input type="submit" value="submit">
+    </form>
+    <script>
+        document.getElementById("gh").addEventListener("submit",function(event){
+            event.preventDefault();
+            console.log("submitted form");
+        });
+    </script> -->
+
+    <!-- <h1>window loaded event</h1>
+    <script>
+        window.addEventListener("load",function(){
+            alert("page is loaded..!");
+        });
+    </script> -->
+    <!-- <img src="non-existent image.png" alt="img" onerror="imgerror()">
+    <script>
+        function imgerror(){
+            console.log("failed");
+        } 
+    </script> -->
+   <input id="my" type="text">
+    <script>
+        document.getElementById("my").addEventListener("keydown",function(event){
+            console.log("key pressed..."+event.key);
+        });
+    </script>
+</body>
+</html>

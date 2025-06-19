@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Cover</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #283747; /* Dark blue background */
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .circle-text {
+      position: relative;
+      width: 300px; /* Adjust as needed */
+      height: 300px; /* Adjust as needed */
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .circle-text span {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5em; /* Adjust as needed */
+    }
+
+    .circle-text span:nth-child(1) { transform: rotate(0deg); }
+    .circle-text span:nth-child(2) { transform: rotate(45deg); }
+    .circle-text span:nth-child(3) { transform: rotate(90deg); }
+    .circle-text span:nth-child(4) { transform: rotate(135deg); }
+    .circle-text span:nth-child(5) { transform: rotate(180deg); }
+    .circle-text span:nth-child(6) { transform: rotate(225deg); }
+    .circle-text span:nth-child(7) { transform: rotate(270deg); }
+    .circle-text span:nth-child(8) { transform: rotate(315deg); }
+
+    .arrow {
+      font-size: 3em; /* Adjust as needed */
+      margin: 20px 0;
+    }
+
+    .bottom-bar {
+      background-color: #34495E; /* Slightly lighter blue */
+      width: 100%;
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      bottom: 0;
+    }
+
+    .bottom-bar div {
+      font-size: 1.2em; /* Adjust as needed */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="circle-text">
+    <span>D</span>
+    <span>I</span>
+    <span>S</span>
+    <span>C</span>
+    <span>O</span>
+    <span>V</span>
+    <span>E</span>
+    <span>R</span>
+    <span>O</span>
+    <span>U</span>
+    <span>R</span>
+    <span>P</span>
+    <span>R</span>
+    <span>O</span>
+    <span>J</span>
+    <span>E</span>
+    <span>C</span>
+    <span>T</span>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="bottom-bar">
+    <div>2 BHK</div>
+    <div>₹</div>
+    <div>90 L - 1.5 Cr</div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

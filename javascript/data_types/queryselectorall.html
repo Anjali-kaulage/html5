@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Document Object</h1>
+<h2>The querySelectorAll() Method</h2>
+
+<div class="example">
+A div element with class="example"
+</div>
+
+<div class="example">
+A div element with class="example"
+</div>
+
+<p class="example">A p element with class="example"</p>
+
+<p>How many elements with class "example" in this document:</p>
+
+<p id="demo"></p>
+
+<script>
+const nodeList = document.querySelectorAll(".example");
+document.getElementById("demo").innerHTML = nodeList.length;
+</script>
+
+</body>
+</html>
